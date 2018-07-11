@@ -1,0 +1,323 @@
+body{
+	font-family: Sans-serif;
+	margin-top: 53px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  position: relative;
+  margin: 2%;
+  overflow: hidden;
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.home {
+	height: 560px;
+	background-image: url("../images/photos/delivery-truck.jpeg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home h1{
+	font-family: Lobster;
+	padding-top: 13%;
+	font-size: 6em;
+	font-weight: bold;
+	color: white;
+}
+
+.home h3{
+	color: white;
+	font-style: italic;
+	font-size: 30px;
+}
+.our-services{
+	height: 700px;
+}
+
+.our-services .thumbnail{
+	height:360px;
+}
+
+.our-services h1{
+	font-family: Sans-serif;
+	padding-top: 70px;
+	font-size: 3em;
+	font-weight: bold;
+	color: #000;
+}
+
+.our-services h2{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	padding:20px;
+}
+.our-clients{
+	background-color: #e3e3e3;
+}
+
+.our-clients img{
+	padding:20px;
+	height: 150px;
+	width:150px;
+}
+
+.footer{
+	bottom: 0;
+	height:100px;
+}
+
+.header-text h1{
+	padding-top: 70px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.contact-details h3{
+	font-weight: bold;
+	font-style: italic;
+	color: #000;
+	text-decoration: underline;
+}
+
+.contact-form h3{
+	font-weight: bold;
+	color: #000;
+	font-style: italic;
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+
+.contact-details p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding:10px;
+}
+
+.social h3{
+	font-style: italic;
+	text-decoration: none;
+	padding:20px;
+}
+
+.social a{
+	padding: 15px;
+	background-color: white;
+	color:#5D5956;
+}
+
+.social a:hover{
+	color:white;
+	background-color:#5D5956;
+}
+
+.google-map{
+	padding-top: 0px;
+}
+
+.form-container {
+	max-width:430px;
+	margin-left: 20%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#FFF;
+	color:#000;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:grey;
+	color:#FFF;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+ font-family: Sans-serif;
+}
+:-moz-placeholder {
+ color:#888;
+ font-family: Sans-serif;
+}
+::-moz-placeholder {
+ color:#888;
+ font-family: Sans-serif;
+}
+:-ms-input-placeholder {
+ color:#888;
+ font-family: Sans-serif;
+}
+
+.contact-page{
+	background-image: url(../images/photos/office.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.contact-page .jumbotron{
+	opacity: .9;
+	border-radius: 0px;
+}
+
+.header-intro{
+	padding-top: 50px;
+	color: #000;
+	font-weight: bold;
+}
+
+.about h3{
+	font-family: Sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+	padding: 20px;
+}
+
+
+.management .thumbnail{
+	height:470px;
+	background-color: #dedede;
+	border-width: 20px;
+	border-radius: 0px;
+}
+
+.our-services .thumbnail{
+	height:400px;
+	background-color: #dedede;
+	border-width: 20px;
+	border-radius: 0px;
+}
+
+.moving-truck .thumbnail{
+	background-color: #dedede;
+	border-width: 0px;
+	border-radius: 0px;
+}
+
+.aboutinfo .thumbnail{
+	height:470px;
+	background-color: #fff;
+	border-width: 20px;
+	border-radius: 0px;
+}
+
+.management h4{
+	padding:10px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.management .management-intro h2{
+	padding:10px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.food-delivery .thumbnail,
+.goods-delivery .thumbnail,
+.moving .thumbnail,
+.event-equipment .thumbnail{
+	height:auto;
+}
+
+.services-outlined h3{
+	font-family: Sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.food-delivery,
+.goods-delivery,
+.moving,
+.event-equipment{
+	padding: 60px;
+	margin-bottom: 80px;
+}
+
